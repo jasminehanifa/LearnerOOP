@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC6E1BF1228BF80700A4A1F9 /* LaptopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E1BF0228BF80700A4A1F9 /* LaptopModel.swift */; };
 		DCF93378228BD8580045CC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF93377228BD8580045CC3F /* AppDelegate.swift */; };
 		DCF9337A228BD8580045CC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF93379228BD8580045CC3F /* ViewController.swift */; };
 		DCF9337D228BD8590045CC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF9337B228BD8590045CC3F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC6E1BF0228BF80700A4A1F9 /* LaptopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopModel.swift; sourceTree = "<group>"; };
 		DCF93374228BD8580045CC3F /* LearnerOOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnerOOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF93377228BD8580045CC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF93379228BD8580045CC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				DCF93380228BD85C0045CC3F /* LaunchScreen.storyboard */,
 				DCF93383228BD85C0045CC3F /* Info.plist */,
 				DCF93389228BE5960045CC3F /* LearnerModel.swift */,
+				DC6E1BF0228BF80700A4A1F9 /* LaptopModel.swift */,
 			);
 			path = LearnerOOP;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF9337A228BD8580045CC3F /* ViewController.swift in Sources */,
+				DC6E1BF1228BF80700A4A1F9 /* LaptopModel.swift in Sources */,
 				DCF9338A228BE5960045CC3F /* LearnerModel.swift in Sources */,
 				DCF93378228BD8580045CC3F /* AppDelegate.swift in Sources */,
 			);
