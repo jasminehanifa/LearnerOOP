@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         learnerInstance = LearnerModel(nameLearner: "Jasmine", ageLearner: 21, genderLearner: "Female", imageProfileLearner: "")
         facilitatorInstance = FacilitatorModel(facilName: "David", facilAge: 24, facilGender: "Male", facilImageProfile: "", facilPerk: "Unlimited Starbuck on Friday")
         updateUI()
-//        updateUIFacil()
     }
 
     
@@ -34,13 +33,6 @@ class ViewController: UIViewController {
         }
     }
     
-//    func updateUIFacil(){
-//        if let instance = facilitatorInstance{
-//            learnerNameLabel.text = instance.name
-//            learnerAgeLabel.text = "\(instance.age)"
-//            learnerGenderLabel.text = instance.gender
-//        }
-//    }
     
     @IBAction func increaseAgeButtonClicked(_ sender: UIButton) {
         if let instance = facilitatorInstance{
@@ -50,12 +42,6 @@ class ViewController: UIViewController {
         }
     }
     
-//    @IBAction func increaseAgeButtonFacil(_ sender: UIButton) {
-//        if let instance = facilitatorInstance{
-//            instance.increaseAge()
-//            instance.coachMentee()
-//            updateUIFacil()
-//        }
-//    }
+
 }
 
